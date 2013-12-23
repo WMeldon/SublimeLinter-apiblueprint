@@ -1,24 +1,41 @@
 SublimeLinter-apiblueprint
 =========================
 
-This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3) provides an interface to [apiblueprint](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3) provides an interface to [ApiBlueprint](https://github.com/apiaryio/api-blueprint) via [snowcrash](https://github.com/apiaryio/snowcrash). It will be used with files that have the “ApiBlueprint” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Installation).
 
 ### Linter installation
-Before using this plugin, you must ensure that `apiblueprint` is installed on your system. To install `apiblueprint`, do the following:
+Before using this plugin, you must ensure that `snowcrash` is installed on your system. To install `snowcrash`, check [the homepage](https://github.com/apiaryio/snowcrash), or do the following:
 
-1. Install Other.
+*OSX*
 
-1. Install `apiblueprint` by typing the following in a terminal:
-   ```
-   <package manager> install apiblueprint
-   ```
+```sh
+$ brew install --HEAD \
+  https://raw.github.com/apiaryio/snowcrash/master/tools/homebrew/snowcrash.rb
+```
+
+*Windows*
+
+See [this page](https://github.com/apiaryio/snowcrash/wiki/Building-on-Windows)
+
+*Other Systems*
+
+See [this page](https://github.com/apiaryio/snowcrash#build)
 
 Once apiblueprint is installed, you can proceed to install the SublimeLinter-apiblueprint plugin if it is not yet installed.
 
 ### Plugin installation
+
+## From the source:
+
+```sh
+cd '/path/to/Sublime Text 3/Packages'
+git clone https://github.com//SublimeLinter3.git SublimeLinter
+```
+
+# Not on Package Control, Ignore
 Please use [Package Control](https://sublime.wbond.net/installation) to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won’t cover that here.
 
 To install via Package Control, do the following:
@@ -29,13 +46,6 @@ To install via Package Control, do the following:
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see [Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Settings). For information on generic linter settings, please see [Linter Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Linter-Settings).
-
-In addition to the standard SublimeLinter settings, SublimeLinter-apiblueprint provides its own settings. Those marked as “Inline Setting” or “Inline Override” may also be [used inline](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Settings#inline-settings).
-
-|Setting|Description|Inline Setting|Inline Override|
-|:------|:----------|:------------:|:-------------:|
-|foo|Something.|&#10003;| |
-|bar|Something else.| |&#10003;|
 
 ## Contributing
 If you would like to contribute enhancements or fixes, please do the following:

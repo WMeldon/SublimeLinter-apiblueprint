@@ -7,4 +7,4 @@ This linter plugin for SublimeLinter provides an interface to apiblueprint.
 Before this plugin will activate, you *must*
 follow the installation instructions here:
 
-https://github.com/William Meldon/SublimeLinter-apiblueprint
+https://github.com/WMeldon/SublimeLinter-apiblueprint
