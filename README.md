@@ -9,18 +9,18 @@ SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 
 ### Linter installation
 Before using this plugin, you must ensure that `snowcrash` is installed on your system. To install `snowcrash`, check [the homepage](https://github.com/apiaryio/snowcrash), or do the following:
 
-*OSX*
+**OSX**
 
 ```sh
 $ brew install --HEAD \
   https://raw.github.com/apiaryio/snowcrash/master/tools/homebrew/snowcrash.rb
 ```
 
-*Windows*
+**Windows**
 
 See [this page](https://github.com/apiaryio/snowcrash/wiki/Building-on-Windows)
 
-*Other Systems*
+**Other Systems**
 
 See [this page](https://github.com/apiaryio/snowcrash#build)
 
