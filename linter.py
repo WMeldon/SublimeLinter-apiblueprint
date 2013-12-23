@@ -67,8 +67,7 @@ class Apiblueprint(Linter):
         and return them.
 
         """
-        print('split_match')
-
+        
         if match:
             items = {'pos': None, 'upto': None, 'error': None, 'warning': None, 'message': '', 'near': None}
             items.update(match.groupdict())
